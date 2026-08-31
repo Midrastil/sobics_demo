@@ -1,0 +1,4 @@
+Hi, this is an old school project of mine, where I had to make a sobics like game with Javascript. Sadly i couldn't finish it in time and a lot of game logic is missing.
+The working parts are the character moving, picking up, putting back, the special types of objrcts: non pickable(sun) and column eraser(asteroid) work. 
+The music player and scoreboard is working as well, but the scoring system wasn't finished in time.
+To run this project you need to move into the folder(if not changed its sobics_demo) with index.html and run "npx serve ." command in the terminal and then it'll open a port on your localhost, most likely it'll be on localhost:3000. 
