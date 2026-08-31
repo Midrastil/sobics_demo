@@ -1,0 +1,63 @@
+body{
+    background: url("../img/bg2.png") repeat left top;
+}
+
+#gamearea{
+    width: 900px;
+    height: 800px;
+    border: 2px lightslategray solid;
+    margin: 0 auto;
+    position: relative;
+    right: 500px;
+    background-image: url("../img/bg.jpeg");
+}
+
+.block{
+    border-radius: 50%;
+    margin: 5px;
+    width: 80px;
+    height: 70px;
+    position: absolute;
+}
+#notgame{
+    top: 0;
+    position: absolute;
+    left: 80%;
+    color: red;
+    font-size: 30px;
+    border: none;
+
+}
+#my_score{
+    margin: 0 0 0 0;
+}
+p{
+    margin-top: 0;
+}
+
+.moon{
+    background: url(../img/moon.png) repeat left top;
+}
+.mars{
+    background: url(../img/mars.png) repeat left top;
+}
+.mercur{
+    background: url(../img/mercur.png) repeat left top;
+}
+.venus{
+     background: url(../img/venus.png) repeat left top;
+ }
+.sun{
+    background: url(../img/sun.png) repeat left top;
+}
+.meteor{
+    background: url(../img/meteor.png) repeat ;
+}
+
+.empty{
+    background: none;
+}
+
+#char{
+    position: relative;
+}
