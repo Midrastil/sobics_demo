@@ -135,7 +135,7 @@ function under(row_ind, col_ind){
 
 function score() {
     // bekerjuk a jatekos nevet a toplistahoz
-    var person = prompt("Adja meg a nevét:", "anonymus");
+    var person = prompt("Type a name:", "anonymus");
     // eltaroljuk localStorage-ben az aktualis jatekos klikkeleseinek szamat
     localStorage.setItem(person,score_point);
 
@@ -157,8 +157,9 @@ function fill_toplist() {
     });
     // a 10 legtobb pontot elert jatekost jelezzuk ki a listan
     for (let act_data of data.keys()) {
-        if (act_data < 10) {
+        if (act_data < 10 && data[act_data][0] !== "null") {
             $('#list').append(data[act_data][0] + ': ' + data[act_data][1] + '<br>');
+            console.log(data[act_data][0] + ': ' + data[act_data][1]);
         }
     }
 }
